@@ -7,4 +7,5 @@ I intend to make this theme for the io more interactive, however the package I a
 ## The Chrom(ium/e) Easter Egg, T-Rex Run.
 Unfamiliar with this game? Far too privileged to have Wi-Fi drop-outs? Here's a gif. Enjoy.
 ![ITSJUSTAGAME](assets/screenshot.gif)
+
 Feel free to play the game [here](http://retr0gr4d3.github.io/WhatThatTrexDo/)

@@ -9,10 +9,4 @@ I intend to make this theme for the io more interactive, however the package I a
 Unfamiliar with this game? Far too privileged to have Wi-Fi drop-outs? Here's a gif. Enjoy.
 ![ITSJUSTAGAME](assets/screenshot.gif)
 
-<div class="ui animated button" tabindex="0">
-  <div class="visible content">Next</div>
-  <div class="hidden content">
-    <i class="right arrow icon"></i>
-  </div>
-</div>
 Feel free to play the game [here](http://retr0gr4d3.github.io/WhatThatTrexDo/).

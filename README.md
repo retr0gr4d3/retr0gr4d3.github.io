@@ -27,5 +27,7 @@ I intend to make a theme for this site, to make it more interesting and interact
 </details>
 
 It supports; **Windows 10 Edition**, **Bethesda Launcher Version**, **Steam Version**, **Android Version**
+
 Not tried or tested, nor am I intrested in doing so but feel free to try: **iOS Version**
+
 The tool can be found [here](https://retr0gr4d3.github.io/FalloutShelterMod/).

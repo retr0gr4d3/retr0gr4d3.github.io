@@ -5,29 +5,36 @@ I intend to make a theme for this site, to make it more interesting and interact
 
 ## Ports and Edits
 
-**The Chrom(ium/e) Easter Egg, T-Rex Run.**
+<details>
+ <summary>The Chrom(ium/e) Easter Egg, T-Rex Run.</summary>
+ Unfamiliar with this game? Far too privileged to have Wi-Fi drop-outs? There's a gif below. Enjoy.
 
-Unfamiliar with this game? Far too privileged to have Wi-Fi drop-outs? Here's a gif. Enjoy.
+ Feel free to play the game [here](http://retr0gr4d3.github.io/WhatThatTrexDo/). No Wi-Fi drama, with the freedom to do whatever you      like while playing.
+ 
+</details>
+
 ![ITSJUSTAGAME](assets/screenshot.gif)
-
-Feel free to play the game [here](http://retr0gr4d3.github.io/WhatThatTrexDo/). No Wi-Fi drama, with the freedom to do whatever you like while playing.
 
 
 ## Game Modifiers
 
-**Online Fallout Shelter Save Mod**
+<details>
+ <summary>Online Fallout Shelter Save Mod.</summary>
+  
+ The tool linked below is a save editor for Fallout Shelter. It supports;
+ <br />
+  
+ **Windows 10 Edition**
 
-The tool linked below is a save editor for Fallout Shelter. It supports;
+ **Bethesda Launcher Version**
 
-**Windows 10 Edition**
+ **Steam Version**
 
-**Bethesda Launcher Version**
+ **Android Version**
 
-**Steam Version**
+ And not tried or tested, nor am I intrested in doing so but feel free to try: **iOS Version**
 
-**Android Version**
+ The Fallout Shelter Tool will allow you to change everything within your save. Themes (like **Halloween**), Characters (like **Names**,  **SPECIAL**, **HP** and **radiation**) and many more. You can have the game of your dreams, or prebuild your map before changing it to  **Survival** with the newly implimented **Game Mode Editor**.
+ The tool can be found [here](https://retr0gr4d3.github.io/FalloutShelterMod/).
 
-And not tried or tested, nor am I intrested in doing so but feel free to try: **iOS Version**
-
-The Fallout Shelter Tool will allow you to change everything within your save. Themes (like **Halloween**), Characters (like **Names**, **SPECIAL**, **HP** and **radiation**) and many more. You can have the game of your dreams, or prebuild your map before changing it to **Survival** with the newly implimented **Game Mode Editor**.
-The tool can be found [here](https://retr0gr4d3.github.io/FalloutShelterMod/).
+</details>

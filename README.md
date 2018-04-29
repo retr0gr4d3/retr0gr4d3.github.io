@@ -22,8 +22,7 @@ I intend to make a theme for this site, to make it more interesting and interact
  <summary>Online Fallout Shelter Save Mod.</summary>
   
  The tool linked below is a save editor for Fallout Shelter. It supports;
- <br />
-  
+ 
  **Windows 10 Edition**
 
  **Bethesda Launcher Version**

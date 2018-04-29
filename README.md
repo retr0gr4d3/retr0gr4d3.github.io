@@ -1,8 +1,6 @@
-# retr0gr4d3's Repository.
+# This is the online portal to my projects. Welcome.
 
-This is the online portal to my projects. Welcome.
-
-I intend to make this theme for the io more interactive, however the package I am currently using **does not support theming** and includes generated CSS files of Semantic UI's default theme. If anyone is willing to help me make this page wonderful, and worth visiting... Please, don't hesitate to help me.
+I intend to make a theme for this site, to make it more interesting and interactive. Recently, I was using Semantic UI which is pre-generated CSS files. These files resulted in a mass of... Ugly nothingness and thus utter clutter in my repo. If anyone is willing to help me make this page wonderful, and worth visiting... Please, don't hesitate to help me.
 
 
 ## The Chrom(ium/e) Easter Egg, T-Rex Run.

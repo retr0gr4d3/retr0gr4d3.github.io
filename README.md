@@ -21,19 +21,11 @@ I intend to make a theme for this site, to make it more interesting and interact
 <details>
  <summary>Online Fallout Shelter Save Mod.</summary>
   
- The tool linked below is a save editor for Fallout Shelter. It supports;
- 
- **Windows 10 Edition**
-
- **Bethesda Launcher Version**
-
- **Steam Version**
-
- **Android Version**
-
- And not tried or tested, nor am I intrested in doing so but feel free to try: **iOS Version**
-
- The Fallout Shelter Tool will allow you to change everything within your save. Themes (like **Halloween**), Characters (like **Names**,  **SPECIAL**, **HP** and **radiation**) and many more. You can have the game of your dreams, or prebuild your map before changing it to  **Survival** with the newly implimented **Game Mode Editor**.
- The tool can be found [here](https://retr0gr4d3.github.io/FalloutShelterMod/).
+ The tool linked below is a save editor for Fallout Shelter.
+ The Fallout Shelter Tool will allow you to change everything within your save. Themes (like Halloween), Characters (like Names,     SPECIAL, HP and Radiation) and many more. You can have the game of your dreams, or prebuild your map before changing it to Survival with the newly implimented Game Mode Editor.
 
 </details>
+
+It supports; **Windows 10 Edition**, **Bethesda Launcher Version**, **Steam Version**, **Android Version**
+Not tried or tested, nor am I intrested in doing so but feel free to try: **iOS Version**
+The tool can be found [here](https://retr0gr4d3.github.io/FalloutShelterMod/).

@@ -26,7 +26,7 @@ I intend to make a theme for this site, to make it more interesting and interact
 
 </details>
 
-It supports; **Windows 10 Edition**, **Bethesda Launcher Version**, **Steam Version**, **Android Version**
+It supports; **Windows 10 Edition**, **Bethesda Launcher Version**, **Steam Version**, **Android Version** and **Xbox One (SAME AS WINDOWS 10 EDITION)**
 
 Not tried or tested, nor am I intrested in doing so but feel free to try: **iOS Version**
 

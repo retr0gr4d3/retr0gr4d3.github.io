@@ -31,4 +31,4 @@ It supports; **Windows 10 Edition**, **Bethesda Launcher Version**, **Steam Vers
 Not tried or tested, nor am I intrested in doing so but feel free to try: **iOS Version**
 
 The tool can be found [here](https://retr0gr4d3.github.io/FalloutShelterMod/).
-The tutorial can be found [here](https://retr0gr4d3.github.io/FSM_HELPER/tut.md).
+The tutorial can be found [here](https://retr0gr4d3.github.io/FSM_HELPER/).

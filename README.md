@@ -32,16 +32,3 @@ Not tried or tested, nor am I intrested in doing so but feel free to try: **iOS 
 
 The tool can be found [here](https://retr0gr4d3.github.io/FalloutShelterMod/).
 The tutorial can be found [here](https://retr0gr4d3.github.io/FSM_HELPER/).
-
-<h2>Example of code</h2>
-
-<pre>
-    <div class="container">
-        <div class="block two first">
-            <h2>Your title</h2>
-            <div class="wrap">
-                //Your content
-            </div>
-        </div>
-    </div>
-</pre>

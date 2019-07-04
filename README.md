@@ -32,5 +32,5 @@ It supports; **Windows 10 Edition**, **Bethesda Launcher Version**, **Steam Vers
 
 Not tried or tested, nor am I intrested in doing so but feel free to try: **iOS Version**
 
-The tool can be found [NOT HERE](https://git.retr0.gr4d3.uk/MenagerieLootNow/README.md).
+The tool can be found [NOT HERE](https://retr0gr4d3.github.io/MenagerieLootNow/README.md).
 The tutorial can be found [NOT HERE](https://retr0gr4d3.github.io/FSM_HELPER/).

@@ -1,36 +1,33 @@
-# This is the online portal to my projects. Welcome.
-
-I intend to make a theme for this site, to make it more interesting and interactive. Recently, I was using Semantic UI which is pre-generated CSS files. These files resulted in a mass of... Ugly nothingness and thus utter clutter in my repo. If anyone is willing to help me make this page wonderful, and worth visiting... Please, don't hesitate to help me.
-
+# I do stuff and it sometimes ends up here. Sometimes.
 
 ## Ports and Edits
 
 <details>
  <summary>The Chrom(ium/e) Easter Egg, T-Rex Run.</summary>
- Unfamiliar with this game? Far too privileged to have Wi-Fi drop-outs? There's a gif below. Enjoy.
+ Unfamiliar with this game? Far too privileged to have Wi-Fi drop-outs? There's a gif just under this. Enjoy.
 
- Feel free to play the game [here](http://retr0gr4d3.github.io/WhatThatTrexDo/). No Wi-Fi drama, with the freedom to do whatever you      like while playing.
+ Feel free to play the game [here](http://retr0gr4d3.github.io/WhatThatTrexDo/). Feel free to mess with this using Chrome's 'inspect element' and console.
  
 </details>
 
-![ITSJUSTAGAME](assets/screenshot.gif)
+![ITSONLYGAME](assets/screenshot.gif)
 
 
-## Game Modifiers
+## Projects.
 
 <details>
- <summary>Online Fallout Shelter Save Mod.</summary>
+ <summary>Python-based tool for Destiny 2: Season of Opulence loot.</summary>
   
- Note: Due to the demanding edits this requires, I have dirty swiped the files. Instead, I will be linking a different source. Sorry lads.
+ Note: Very VERY much so in foetal state. Not near completion but is recieving regular updates.
 
-The tool linked below is a save editor for Fallout Shelter.
- The Fallout Shelter Tool will allow you to change everything within your save. Themes (like Halloween), Characters (like Names,     SPECIAL, HP and Radiation) and many more. You can have the game of your dreams, or prebuild your map before changing it to Survival with the newly implimented Game Mode Editor.
-
+The're a technical description available in the page linked below.
+ The "MenagerieLootNow" (Working Name) tool will allow you to make informed decisions on what runes to use on the challice of opulence. The Callice of Opulence is an item in the game that allows you to mix-and-match any three runes to achieve a desired loot drop. For instance, matching the purple rune of the Beast with another purple rune will cause the CALUS Mini Tool to drop from the next completion of the Menagerie.
 </details>
 
-It supports; **Windows 10 Edition**, **Bethesda Launcher Version**, **Steam Version**, **Android Version** and **Xbox One (SAME AS WINDOWS 10 EDITION)**
+It supports; **Windows**, **Linux**, **macOS**, **Android** and **anything that can run python. A Raspberry PI, for example.**
 
-Not tried or tested, nor am I intrested in doing so but feel free to try: **iOS Version**
+If you wish to report a bug, please ensure you have Python installed.
 
-The tool can be found [NOT HERE](https://retr0gr4d3.github.io/MenagerieLootNow/).
-The tutorial can be found [NOT HERE](https://retr0gr4d3.github.io/FSM_HELPER/).
+The builds found on my GitHub are tested and hand coded by myself. The current status of this tool is: **PRE-ALPHA at best.**
+
+The page can be found [HERE](https://retr0gr4d3.github.io/MenagerieLootNow/).

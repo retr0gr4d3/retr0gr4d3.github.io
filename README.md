@@ -17,17 +17,22 @@
 
 <details>
  <summary>Python-based tool for Destiny 2: Season of Opulence loot.</summary>
-  
- Note: Very VERY much so in foetal state. Not near completion but is recieving regular updates.
 
-There's a technical description available in the page linked below.
- The "MenagerieLootNow" (Working Name) tool will allow you to make informed decisions on what runes to use on the chalice of opulence. The chalice of opulence is an item in the game that allows you to mix-and-match any three runes to achieve a desired loot drop. For instance, matching the purple rune of the Beast with another purple rune will cause the CALUS Mini Tool to drop from the next completion of the Menagerie.
+Note: This software is in a foetal state, nowhere near completion but is receiving regular updates. 
+
+There's a technical description available in the page linked below. 
+
+The "MenagerieLootNow" (Working Name) tool will allow you to make informed decisions on what runes to use on the chalice of opulence. 
+
+The chalice of opulence is an item in the game that allows you to mix-and-match any three runes to achieve a desired loot drop. 
+
+For instance, matching the purple rune of the Beast with another purple rune will cause the CALUS Mini Tool to drop from the next completion of the Menagerie.
 </details>
 
-It supports; **Windows**, **Linux**, **macOS**, **Android** and **anything that can run python. A Raspberry PI, for example.**
+This software currently supports; **Windows**, **Linux**, **macOS**, **Android** and **any other operating system that can run Python**, *(for example, a Raspberry PI running Raspbian)*.
 
-If you wish to report a bug, please ensure you have Python installed.
+If you wish to report a bug, please ensure you have Python installed correctly.
 
-The builds found on my GitHub are tested and hand coded by myself. The current status of this tool is: **PRE-ALPHA at best.**
+The builds found on my GitHub are tested and hand coded by myself. The current status of this tool is: **PRE-ALPHA at best**.
 
 The page can be found [HERE](https://retr0gr4d3.github.io/MenagerieLootNow/).

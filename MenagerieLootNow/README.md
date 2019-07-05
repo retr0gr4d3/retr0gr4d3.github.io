@@ -7,6 +7,15 @@
  Skrrt **skrrt** 
 </details>
 
+```python
+def pythonCodePlaceholder():
+    global placeholder
+    placeholder = input('''
+placeholder...
+placeholder...
+placeholder...''')
+```
+
 Place**holder**
 
 Place[holder + 404](https://retr0gr4d3.github.io/placeholder/).

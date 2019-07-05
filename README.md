@@ -36,3 +36,5 @@ If you wish to report a bug, please ensure you have Python installed correctly.
 The builds found on my GitHub are tested and hand coded by myself. The current status of this tool is: **PRE-ALPHA at best**.
 
 The page can be found [HERE](https://retr0gr4d3.github.io/MenagerieLootNow/).
+
+Test site found [HERE](https://retr0gr4d3.github.io/WebTest/).

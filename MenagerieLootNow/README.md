@@ -20,15 +20,14 @@ placeholder...''')
  <summary>placeholder.</summary>
  placeholder
  
- 
-```python
-def pythonCodePlaceholder():
-    global placeholder
-    placeholder = input('''
-placeholder...
-placeholder...
-placeholder...''')
-```
+ ```python
+ def pythonCodePlaceholder():
+     global placeholder
+     placeholder = input('''
+ placeholder...
+ placeholder...
+ placeholder...''')
+ ```
 </details>
 
 Place**holder**

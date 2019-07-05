@@ -3,8 +3,8 @@
 ## Placeholder of the Skrrtiest Skrrt.
 
 <details>
- <summary>skrrt.</summary>
- Skrrt **skrrt** 
+ <summary>placeholder.</summary>
+ placeholder
 </details>
 
 ```python

@@ -3,8 +3,7 @@ title: Placeholder
 ---
 
 
-# This is under development. 
-# Consider this a 404.
+# This is under development. Consider this a 404.
 
 ## Placeholder of the Skrrtiest Skrrt.
 
@@ -21,22 +20,6 @@ placeholder...
 placeholder...
 placeholder...''')
 ```
-
-<details>
- <summary>placeholder.</summary>
- placeholder
- 
- 
- 
- ```python
- def pythonCodePlaceholder():
-     global placeholder
-     placeholder = input('''
- placeholder...
- placeholder...
- placeholder...''')
- ```
-</details>
 
 Place**holder**
 

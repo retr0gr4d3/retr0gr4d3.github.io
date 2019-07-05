@@ -4,7 +4,7 @@
 
 <details>
  <summary>skrrt.</summary>
- Skrrt skrrt **test**.[skrrt](https://retr0gr4d3.github.io/skrrt).
+ Skrrt **skrrt** 
 </details>
 
 Place**holder**

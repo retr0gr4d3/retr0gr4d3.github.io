@@ -96,13 +96,13 @@
           <h4>Merging Android Security Updates</h4>
           <p class="left-align light">Every first monday of every month, Google push their source code for the latest update to Android. At the time of writing (Sat. 10th August 2019), the newest tag is: <code>android-9.0.0_r46</code>.</p>
           <p class="left-align light">For me to update my <code>blueline</code> to the latest source, I would need to go to <a href="https://android.googlesource.com/device/google/crosshatch">Google's Crosshatch Repo</a> and find the <code>latest tag</code>. As mentioned before, the latest tag at this time is <code>android-9.0.0_r46</code>.</p>
-          </div>
-          <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoilerGOOGLEUPDATE') .style.display=='none') {document.getElementById('spoilerGOOGLEUPDATE') .style.display=''}else{document.getElementById('spoilerGOOGLEUPDATE') .style.display='none'}">Merging Android Security Updates</button>
           <div id="spoilerMERGECHANGE" style="display:none">
           <h4>How do I actually merge these changes?</h4>
           <p class="left-align light"><code class="codebox">cd device/google/crosshatch</code> and <code>git pull https://android.googlesource.com/device/google/crosshatch android-9.0.0_r46</code>. Once that is done, I will then <code>git commit -m "*month* Monthly Merge"</code> and finalise everything with <code>git push origin pasta</code>.</p>
           </div>
           <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoilerMERGECHANGE') .style.display=='none') {document.getElementById('spoilerMERGECHANGE') .style.display=''}else{document.getElementById('spoilerMERGECHANGE') .style.display='none'}">How do I actually merge these changes?</button>
+          </div>
+          <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoilerGOOGLEUPDATE') .style.display=='none') {document.getElementById('spoilerGOOGLEUPDATE') .style.display=''}else{document.getElementById('spoilerGOOGLEUPDATE') .style.display='none'}">Merging Android Security Updates</button>
         </div>
       </div>
 

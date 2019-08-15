@@ -2,6 +2,13 @@
 
 ![current state](https://img.shields.io/badge/state-dev-red.svg) ![version](https://img.shields.io/badge/version-2.0.5-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/retr0gr4d3/retr0gr4d3.github.io.svg?maxAge=2592000)](https://github.com/retr0gr4d3/retr0gr4d3.github.io/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/retr0gr4d3/retr0gr4d3.github.io.svg?maxAge=2592000)](https://github.com/retr0gr4d3/retr0gr4d3.github.io/issues?q=is%3Aissue+is%3Aclosed)
 
+              __       ____        __ __       _____
+   ________  / /______/ __ \____  / // / ____ |__  /
+  / ___/ _ \/ __/ ___/ / / / __ \/ // /_/ __ `//_ < 
+ / /  /  __/ /_/ /  / /_/ / /_/ /__  __/ /_/ /__/ / 
+/_/   \___/\__/_/   \____/ .___/  /_/  \__, /____/  
+                        /_/           /____/        
+
 **Material Kit** is a **Free Bootstrap 4 UI Kit** with a fresh, new design inspired by Google's material design. You asked for it, so we built it. It's a great pleasure to introduce to you the material concepts in an easy to use and beautiful set of components. Along with the restyling of the Bootstrap elements, you will find three fully-coded example pages, to help you design your next project.
 
 **Material Kit** makes use of light, surface, and movement. It uses a deliberate color choice, edge-to-edge imagery, and large scale typography. The general layout resembles sheets of paper following multiple different layers so that the depth and order are obvious. The navigation stays mainly on the left and the actions on the right.

@@ -1,15 +1,14 @@
 # [This project uses Material Kit](https://demos.creative-tim.com/material-kit/index.html) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Material%20Kit%20is%20a%20Free%20Bootstrap%204%20UI%20Kit%20%E2%9D%A4%EF%B8%8F%0Ahttps%3A//demos.creative-tim.com/material-kit/index.html%20%23bootstrap%20%23material%20%23design%20%23uikit%20%23freebie%20%20via%20%40CreativeTim)
 
 ![current state](https://img.shields.io/badge/state-dev-red.svg) ![version](https://img.shields.io/badge/version-2.0.5-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/retr0gr4d3/retr0gr4d3.github.io.svg?maxAge=2592000)](https://github.com/retr0gr4d3/retr0gr4d3.github.io/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/retr0gr4d3/retr0gr4d3.github.io.svg?maxAge=2592000)](https://github.com/retr0gr4d3/retr0gr4d3.github.io/issues?q=is%3Aissue+is%3Aclosed)
-
 ```
-:::::::::  :::::::::::: ::::::::::::::::::  ::::::: :::::::::   :::     ::::::::  ::::::::  
-:+:    :+: :+:            :+:    :+:    :+::+:   :+::+:    :+: :+:     :+:    :+::+:    :+: 
-+:+    +:+ +:+            +:+    +:+    +:++:+  :+:++:+    +:++:+ +:+  +:+              +:+ 
-+#++:++#:  +#++:++#       +#+    +#++:++#: +#+ + +:++#++:++#++#+  +:+  :#:           +#++:  
-+#+    +#+ +#+            +#+    +#+    +#++#+#  +#++#+     +#+#+#+#+#++#+   +#+#       +#+ 
-#+#    #+# #+#            #+#    #+#    #+##+#   #+##+#           #+#  #+#    #+##+#    #+# 
-###    ### ##########     ###    ###    ### ####### ###           ###   ########  ########  
+:::::::::  :::::::::::: ::::::: :::::::::::   :::::::  :::::::::    :::      ::::::::   ::::::::  
+:+:    :+: :+:            :+:     :+:    :+: :+:   :+: :+:    :+:  :+:      :+:    :+: :+:    :+: 
++:+    +:+ +:+            +:+     +:+    +:+ +:+  :+:+ +:+    +:+ +:+ +:+   +:+               +:+ 
++#++:++#:  +#++:++#       +#+     +#++:++#:  +#+ + +:+ +#++:++#+ +#+  +:+   :#:            +#++:  
++#+    +#+ +#+            +#+     +#+    +#+ +#+#  +#+ +#+      +#+#+#+#+#+ +#+   +#+#        +#+ 
+#+#    #+# #+#            #+#     #+#    #+# #+#   #+# #+#           #+#    #+#    #+# #+#    #+# 
+###    ### ##########     ###     ###    ###  #######  ###           ###     ########   ########  
 ```
 
 **Material Kit** is a **Free Bootstrap 4 UI Kit** with a fresh, new design inspired by Google's material design. You asked for it, so we built it. It's a great pleasure to introduce to you the material concepts in an easy to use and beautiful set of components. Along with the restyling of the Bootstrap elements, you will find three fully-coded example pages, to help you design your next project.

@@ -1,33 +1,68 @@
-<!-- v2 Rewrite -->
-<!-- Coded Using Sublime Text -->
+<!-- v3 Rewrite. Thank GOD sublime text exists. And Github Pages. Love you all. ;) -->
+<!-- Rewritten for simplicity and removal of useless segments. Code OCD, if you will. -->
 <!DOCTYPE html>
 <html lang="en">
 
 <!-- Begin Header -->
 <head>
+<!-- Metadata -->
 	<meta charset="utf-8" />
-	<link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
-	<link rel="icon" type="image/png" href="./assets/img/favicon.png">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
 <!-- Fonts and icons -->
+	<link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png"> <!-- To be changed -->
+	<link rel="icon" type="image/png" href="./assets/img/favicon.png"> <!-- To be changed -->
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
 <!-- CSS Files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
 	<link href="./assets/css/material-kit.css?v=2.0.5" rel="stylesheet" />
 <!-- Title -->
-	<title>The Boredom - a weird, poorly mixed website by Jake Hurd</title>
+	<title>Home - Retr0gr4d3's Site. A portal for projects by Jake Hurd.</title>
 </head>
 <!-- End Header -->
 
 <!-- Webpage -->
 <body  class="index-page sidebar-collapse">
-	<div class="page-header header-filter clear-filter purple-filter" data-parallax="true" style="background-image: url('./assets/img/bg2.jpg');">
+<!-- Navbar -->
+	<nav class="navbar navbar-color-on-scroll fixed-top navbar-expand-lg navbar-transparent" color-on-scroll="100" id="sectionsNav">
+		<div class="container">
+			<div class="navbar-translate">
+				<a class="navbar-brand" href="https://git.retr0.gr4d3.uk"> retr0gr4d3's Site </a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="navbar-toggler-icon"></span>
+					<span class="navbar-toggler-icon"></span>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="dropdown nav-item">
+						<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"><i class="material-icons">apps</i> Links</a>
+						<div class="dropdown-menu dropdown-with-icons">
+							<a href="./index.html" class="dropdown-item"><i class="material-icons">layers</i> Home</a>
+							<a href="https://demos.creative-tim.com/material-kit/docs/2.1/getting-started/introduction.html" class="dropdown-item"><i class="material-icons">content_paste</i> View MK Source</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://github.com/retr0gr4d3/retr0gr4d3.github.io" target="_blank" data-original-title="View page source on GitHub"><i class="material-icons">cloud_download</i> View GitHub</a>
+					</li>
+					<li class="nav-item"><a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://twitter.com/JakobHurdington" target="_blank" data-original-title="Follow me on Twitter"><i class="fa fa-twitter"></i> Twitter</a>
+					</li>
+					<li class="nav-item"><a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.instagram.com/Retr0gr4d3" target="_blank" data-original-title="Follow me on Instagram"><i class="fa fa-instagram"></i> Instagram</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+<!-- Navbar End -->
+	<div class="page-header header-filter clear-filter red-filter" data-parallax="true" style="background-image: url('./assets/img/bg2.jpg');">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 ml-auto mr-auto">
 					<div class="brand">
-						<h1>The Boredom</h1>
+						<h2>Home</h2>
+						<h1>Project Portal</h1>
 						<h3>Verify Satan. Save the turtles or whatever the kids say these days. I don't know anymore. My generation sucks. Freaking millennials.</h3>
 					</div>
 				</div>
@@ -47,7 +82,7 @@
 							<h3><small>Go on, explore some stuff.</small></h3>
 <!-- Tabs with icons on card -->
 							<div class="card card-nav-tabs">
-								<div class="card-header card-header-primary">
+								<div class="card-header card-header-danger">
 <!-- Colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
 									<div class="nav-tabs-navigation">
 										<div class="nav-tabs-wrapper">
@@ -73,18 +108,18 @@
 										<div class="tab-pane active" id="Menagerie">
 											<div class="row">
 												<div class="ml-auto mr-auto">
-													<button class="btn btn-primary" onclick="window.location.href='/menagerielootnow.html'">Menagerie Loot Now</button>
+													<button class="btn btn-danger" onclick="window.location.href='/menagerielootnow.html'">Menagerie Loot Now</button>
 												</div>
 											</div>
 										</div>
 										<div class="tab-pane" id="Buildandroid">
-											<button class="btn btn-primary" onclick="window.location.href='/buildingandroid.html'">Make Bacon?</button>
+											<button class="btn btn-danger" onclick="window.location.href='/buildingandroid.html'">Make Bacon?</button>
 										</div>
 										<div class="tab-pane" id="TRexRun">
-											<button class="btn btn-primary" onclick="window.location.href='/trexrun.html'">T-Rex Run!</button>
+											<button class="btn btn-danger" onclick="window.location.href='/trexrun.html'">T-Rex Run!</button>
 										</div>
 										<div class="tab-pane" id="TemplateProj">
-											<button class="btn btn-primary" onclick="window.location.href='/template.html'">Template Project</button>
+											<button class="btn btn-danger" onclick="window.location.href='/template.html'">Template Project</button>
 										</div>
 									</div>
 								</div>
@@ -101,17 +136,17 @@
 				<div class="title">
 					<h3>Notifications</h3>
 				</div>
-			</div>
-		</div>
-		<div class="alert alert-success">
-			<div class="container">
-				<div class="alert-icon">
-					<i class="material-icons">check</i>
+				<div class="alert alert-success">
+					<div class="container">
+						<div class="alert-icon">
+							<i class="material-icons">check</i>
+						</div>
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+							<span aria-hidden="true"><i class="material-icons">clear</i></span>
+						</button>
+						<b>Website Build Successful:</b> version 3 now live!
+					</div>
 				</div>
-				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-					<span aria-hidden="true"><i class="material-icons">clear</i></span>
-				</button>
-				<b>Success Alert:</b> I don't bother with this site anymore.
 			</div>
 		</div>
 	</div>
@@ -120,9 +155,6 @@
 		<div class="container">
 			<nav class="float-left">
 				<ul>
-					<li>
-						<a href="https://github.com/retr0gr4d3">retr0gr4d3's Github</a>
-					</li>
 					<li>
 						<a href="https://www.creative-tim.com/license">Licenses</a>
 					</li>
@@ -159,4 +191,4 @@
 </body>
 
 </html>
-<!-- End v2 Rewrite -->
+<!-- End v3 Rewrite -->

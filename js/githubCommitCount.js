@@ -25,7 +25,7 @@
                         const commitCount = linkHeader ? parseInt(linkHeader.match(/page=(\d+)>; rel="last"/)[1]) : 0;
 
                         const commitCountElement = document.getElementById(elementId);
-                        commitCountElement.innerHTML = `r-${commitCount} | Last Updated: ${lastUpdated}`;
+                        commitCountElement.innerHTML = `r-${commitCount} | (${lastUpdated})`;
                     })
                     .catch(error => {
                         console.error('Error fetching commit data:', error);

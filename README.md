@@ -7,10 +7,12 @@
   <img src="https://img.shields.io/badge/CSS-red" alt="CSS">
   <br/>
 </div>
-
-<br/>
-
-## 🫂 Contributors
-<a href="https://github.com/retr0gr4d3/retr0gr4d3.github.io/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=retr0gr4d3/retr0gr4d3.github.io" />
-</a>
+<hr>
+<div align="center">
+  <h3>VERSION: 5 "RELOADED"</h3>
+  <p>A solo project. Just another page on the internet.</p>
+</div>
+<hr>
+<div align="center">
+  <h3 href="https://github.com/retr0gr4d3/retr0gr4d3.github.io/graphs/contributors">🫂 Contributors (Pre v3)<br><img src="https://contrib.rocks/image?repo=retr0gr4d3/retr0gr4d3.github.io"></h3>
+</div>

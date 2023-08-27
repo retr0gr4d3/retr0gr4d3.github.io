@@ -657,6 +657,8 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .col {

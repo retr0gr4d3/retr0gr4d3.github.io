@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" sizes="76x76" href="./images/R.png">
+    <link rel="icon" type="image/png" href="./images/R.png">
+    <title>Chrono Trigger</title>
+
+    <!-- Bootstrap -->
+    <link href="./css/RetrogradeSite.css" rel="stylesheet">
+	
+	<!-- ChronoType Font -->
+	<link href="./css/ChronoType.css" rel="stylesheet" type="text/css" charset="utf-8" />
+	  
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <!-- <a class="navbar-brand text-gradient text-retrograde" href="#">git.retr0.gr4d3.uk</a> -->
+	   <a class="nav-link dropdown-toggle text-gradient text-retrograde" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img id="header" src="./images/R.png" alt=""></a>
+	   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+       <a class="lead dropdown-item" href="https://git.retr0.gr4d3.uk"><strong>Home</strong></a>
+       <div class="dropdown-divider"></div>
+       <a class="lead dropdown-item" href="https://github.com/retr0gr4d3/retr0gr4d3.github.io"><strong>Hosted on GitHub</strong></a>
+       </div>
+	   <span class="text-gradient text-retrograde-solid" id="commitCount">Checking for updates...</span>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid text-center">
+		<img src="./images/Chrono_Trigger.png" alt="Chrono Trigger">
+		<p class="lead">A walkthrough for a timeless classic</p>
+    </div>
+	  <div class="container">
+       <div class="row">
+          <p class="text-center col"><strong>soon™️</strong></p>
+		  <br>
+       </div>
+	  <hr>
+       <div class="row">
+          <div class="text-center col-lg-6 offset-lg-3">
+             <h4><a href="https://git.retr0.gr4d3.uk">git.retr0.gr4d3.uk</a></h4>
+             <p>Copyright &copy; 2023 &middot; All Rights Reserved &middot; Jake Hurd</p>
+          </div>
+       </div>
+    </div>
+	
+    <!-- jQuery --> 
+    <script src="./js/jquery-3.4.1.min.js"></script>
+
+    <!-- Popper -->
+	<script src="./js/popper.min.js"></script>
+	
+	<!-- Bootstrap -->
+    <script src="./js/bootstrap-4.4.1.js"></script>
+	
+	<!-- Include my personal plugin(s) -->
+	<script src="./js/githubCommitCount.js"></script>
+    <script>
+		// (username, repo, branch, destination element ID)
+		githubCommitCount('retr0gr4d3', 'retr0gr4d3.github.io', 'master', 'commitCount');
+	</script>
+  </body>
+</html>

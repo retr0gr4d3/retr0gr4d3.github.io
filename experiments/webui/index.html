@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro AI Online</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/default_avatar.png" type="image/png">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar with character selection -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h1>Retro AI Online</h1>
+                <button id="help-btn" title="Help">?</button>
+            </div>
+            <div class="character-list-container">
+                <div class="character-list-header">
+                    <h2>Characters</h2>
+                    <div class="character-actions">
+                        <button id="edit-character-btn" title="Edit Character">Edit</button>
+                        <button id="new-character-btn" title="Create New Character">+</button>
+                    </div>
+                </div>
+                <div id="character-list" class="character-list">
+                    <!-- Characters will be loaded here -->
+                    <div class="empty-list default-empty-message">No characters yet. Please import a JSON file, or create your own.</div>
+                </div>
+                <div class="character-import">
+                    <button id="import-character-btn">Import Character (JSON)</button>
+                </div>
+            </div>
+            <div class="conversation-list-container">
+                <div class="conversation-list-header">
+                    <h2>Conversations</h2>
+                    <button id="new-conversation-btn" title="Start New Conversation">+</button>
+                </div>
+                <div id="conversation-list" class="conversation-list">
+                    <!-- Conversations will be loaded here -->
+                    <div class="empty-list default-empty-message">No conversations yet. Please start one by selecting or creating a character, then clicking the plus.</div>
+                </div>
+            </div>
+            <div class="sidebar-footer">
+                <button id="settings-btn">Settings</button>
+            </div>
+        </aside>
+
+        <!-- Main chat area -->
+        <main class="chat-container">
+            <div class="chat-header">
+                <div class="chat-header-left">
+                    <button id="toggle-sidebar-btn" class="hamburger-btn" title="Toggle Sidebar">☰</button>
+                    <div class="chat-character-info">
+                        <img id="character-avatar" src="img/default_avatar.png" alt="Character Avatar">
+                        <h2 id="character-name">Select a Character</h2>
+                    </div>
+                </div>
+                <div class="chat-actions">
+                    <button id="regenerate-btn" title="Regenerate Response">Regenerate</button>
+                    <button id="clear-chat-btn" title="Clear Chat">Clear</button>
+                </div>
+            </div>
+            <div id="chat-messages" class="chat-messages">
+                <!-- Messages will be displayed here -->
+                <div class="welcome-message">
+                    <h3>Welcome to Retro AI Online</h3>
+                    <p>Select a character from the sidebar to start a conversation or create a new one.</p>
+                </div>
+            </div>
+            <div class="chat-input-container">
+                <textarea id="chat-input" placeholder="Type your message here..."></textarea>
+                <button id="send-btn">Send</button>
+            </div>
+        </main>
+
+        <!-- Settings panel (hidden by default) -->
+        <div id="settings-panel" class="settings-panel hidden">
+            <div class="settings-header">
+                <h2>Settings</h2>
+                <button id="close-settings-btn">×</button>
+            </div>
+            <div class="settings-content">
+                <div class="settings-section">
+                    <h3>API Configuration</h3>
+                    <div class="form-group">
+                        <label for="api-url">API Endpoint URL:</label>
+                        <input type="text" id="api-url" value="http://localhost:5001/v1">
+                    </div>
+                    <div class="form-group">
+                        <label for="api-key">API Key (optional):</label>
+                        <input type="password" id="api-key">
+                    </div>
+                    <button id="test-connection-btn">Test Connection</button>
+                </div>
+                <div class="settings-section">
+                    <h3>Model Parameters</h3>
+                    <div class="form-group">
+                        <label for="model-select">Model:</label>
+                        <select id="model-select">
+                            <option value="default">Default</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="temperature">Temperature: <span id="temperature-value">0.7</span></label>
+                        <input type="range" id="temperature" min="0" max="2" step="0.1" value="0.7">
+                    </div>
+                    <div class="form-group">
+                        <label for="max-tokens">Max Tokens: <span id="max-tokens-value">2048</span></label>
+                        <input type="range" id="max-tokens" min="256" max="8192" step="256" value="2048">
+                    </div>
+                    <div class="form-group">
+                        <label for="top-p">Top P: <span id="top-p-value">0.9</span></label>
+                        <input type="range" id="top-p" min="0" max="1" step="0.05" value="0.9">
+                    </div>
+                </div>
+                <div class="settings-section">
+                    <h3>UI Settings</h3>
+                    <div class="form-group">
+                        <label for="theme-select">Theme:</label>
+                        <select id="theme-select">
+                            <option value="dark">Dark</option>
+                            <option value="light">Light</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="accent-color">Accent Color:</label>
+                        <input type="color" id="accent-color" value="#D4000B">
+                    </div>
+                    <div class="form-group">
+                        <label for="font-size">Font Size: <span id="font-size-value">16px</span></label>
+                        <input type="range" id="font-size" min="12" max="24" step="1" value="16">
+                    </div>
+                </div>
+                <div class="settings-section">
+                    <h3>Data Management</h3>
+                    <button id="export-data-btn">Export All Data</button>
+                    <button id="import-data-btn">Import Data</button>
+                    
+                    <div class="destructive-actions">
+                        <h4>Destructive Actions</h4>
+                        <button id="forget-everything-btn" class="danger-btn">Forget Everything</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Character creation/editing modal (hidden by default) -->
+        <div id="character-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="character-modal-title">Create New Character</h2>
+                    <button id="close-character-modal-btn">×</button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="character-name-input">Name:</label>
+                        <input type="text" id="character-name-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="character-avatar-upload">Avatar:</label>
+                        <div class="avatar-upload">
+                            <img id="character-avatar-preview" src="img/default_avatar.png" alt="Avatar Preview">
+                            <input type="file" id="character-avatar-upload" accept="image/*">
+                            <button id="upload-avatar-btn">Upload</button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="character-description">Description:</label>
+                        <textarea id="character-description" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="character-personality">Personality:</label>
+                        <textarea id="character-personality" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="character-first-message">First Message:</label>
+                        <textarea id="character-first-message" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="character-example-messages">Example Messages:</label>
+                        <textarea id="character-example-messages" rows="5" placeholder="User: Hello\nCharacter: Hi there! How are you?"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="save-character-btn">Save Character</button>
+                    <button id="cancel-character-btn">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Character Import modal -->
+        <div id="chub-import-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Import Character</h2>
+                    <button id="close-chub-modal-btn">×</button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="json-data">Character JSON:</label>
+                        <textarea id="json-data" rows="8" placeholder="Paste the character JSON data here"></textarea>
+                    </div>
+                    <div class="file-upload">
+                        <label>Or upload a JSON file:</label>
+                        <div class="file-upload-control">
+                            <input type="file" id="json-file-input" accept=".json">
+                            <button id="json-file-btn" class="secondary-btn">Choose File</button>
+                            <span id="json-file-name">No file chosen</span>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <p>Import character JSON files from sources like Chub.ai, SillyTavern, or Character.AI.</p>
+                        <p>To import from Chub.ai: Visit the character page on Chub.ai, download the character card, and upload it here.</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="import-json-btn">Import</button>
+                    <button id="cancel-chub-btn">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Forget Everything confirmation modal (hidden by default) -->
+        <div id="forget-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Forget Everything</h2>
+                    <button id="close-forget-modal-btn">×</button>
+                </div>
+                <div class="modal-body">
+                    <p class="warning-text">Warning: This will permanently delete all your characters, conversations, and settings. This action cannot be undone.</p>
+                    <p>Type "FORGET" to confirm:</p>
+                    <input type="text" id="forget-confirmation">
+                </div>
+                <div class="modal-footer">
+                    <button id="confirm-forget-btn" class="danger-btn" disabled>Forget Everything</button>
+                    <button id="cancel-forget-btn">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/storage.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/characters.js"></script>
+    <script src="js/conversations.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html> 

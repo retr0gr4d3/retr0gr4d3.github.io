@@ -8,8 +8,11 @@ document.addEventListener('DOMContentLoaded', () => {
         showStatusMessage('LocalStorage is not available. The application may not work correctly.', 'error');
     }
     
-    // Initialize UI components
+    // Initialize UI components from ui.js
     initializeUI();
+    
+    // Initialize app-specific UI
+    setupAppUI();
     
     // Set up event listeners
     setupEventListeners();
@@ -24,10 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Initialize UI components
-function initializeUI() {
-    // Setup sidebar toggle functionality for responsive design
-    setupSidebarToggle();
-    
+function setupAppUI() {
     // Load initial data
     renderCharacterList();
 }

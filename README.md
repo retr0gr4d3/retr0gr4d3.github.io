@@ -1,6 +1,5 @@
 <div align="center">
-  <h1>RETR0GR4D3 RELOADED</h1>
-  <h4>A new look, a new goal.</h4>
+  <h1>RETR0GR4D3.GITHUB.IO</h1>
   <img src="https://img.shields.io/badge/licence-MIT-red" alt="Licence">
   <img src="https://img.shields.io/badge/HTML-red" alt="HTML">
   <img src="https://img.shields.io/badge/JAVASCRIPT-red" alt="Javascript">
@@ -9,8 +8,8 @@
 </div>
 <hr>
 <div align="center">
-  <h3>VERSION: 5 "RELOADED"</h3>
-  <p>A solo project. Just another page on the internet.</p>
+  <h3>VERSION: 6 "ADHD +10"</h3>
+  <p>Now a solo project.</p>
 </div>
 <hr>
 <div align="center">

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktinasaurus=globalThis.webpackChunktinasaurus||[]).push([[789],{1396:s=>{s.exports=JSON.parse('{"tag":{"label":"Coming Soon","permalink":"/docs/tags/coming-soon","allTagsPath":"/docs/tags","count":1,"items":[{"id":"intro","title":"Oops!","description":"Unfinished","permalink":"/docs/"}],"unlisted":false}}')}}]);
